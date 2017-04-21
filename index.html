@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Agar.io</title>
+</head>
+<body>
+	<div id="recuadro">
+		<div id="inicio">
+			<h3 style="display: inline-block;">Agar.io</h3>
+			<img src="agar.png" alt="">
+			<input type="text" placeholder="Nick" id="txtmensaje">
+			<select name="" id="color">
+				<option value="#a4f21e">Verde</option>
+				<option value="#F44336">Rojo</option>
+				<option value="#2196F3">Celeste</option>
+			</select>
+			<button id="mapa">Crear Plataforma</button>
+			<button id="boton">Conectar</button>
+			<hr>
+			<p>Selecciona crear plataforma antes de iniciar el juego</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, corrupti. Facilis reprehenderit in dolores sapiente quia ad dignissimos placeat beatae, numquam, suscipit cumque unde animi autem sit, voluptate, nemo! Voluptas.</p>
+			<p>Daniel Fierro</p>
+
+			<div id="facebook" class="social"><a href="https://www.facebook.com/daniel.fierro.torres"></a>
+			<i class="fa fa-facebook"></i>
+			</div>
+			<div id="youtube" class="social"><a href="https://www.youtube.com/watch?v=I05ErV9ByQs"></a>
+			<i class="fa fa-youtube"></i>
+			</div>
+		</div>
+	</div>
+	<section id="plataforma">
+		<aside id="contenedor">
+			<h3>Lista de puestos</h3>
+			<ul id="puesto" style="float: left;">
+				<li>1:</li>
+				<li>2:</li>
+				<li>3:</li>
+				<li>4:</li>
+			</ul>
+			<ul id="listaj">
+				
+			</ul>
+		</aside>
+	</section>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</html>
